@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1sa6/izp0hG5e7vtwCwUC9xFArOJiRptgT/ch8QnfitF9pJRBZwfnvTyLZByi2lcbnYap3Zud8PSdS8uCNswng==",
+  "success": true,
+  "projectFilePath": "D:\\SOURAV WORK\\After IBM\\Practice\\DOTNET_CORE\\CORE_CTS\\Core_WebAPP\\Core_WebAPP\\Core_WebAPP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sourav\\.nuget\\packages\\bootstrap\\5.1.3\\bootstrap.5.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}

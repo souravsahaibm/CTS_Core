@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DVHWf+dhtJA5/8ME9ZBpnGa1uzaNPKDo5gbqrQzl/49JIty1sYK+Y/jwRgEONzFFQIH4gMwYxfI/upqiJfPIqQ==",
+  "success": true,
+  "projectFilePath": "D:\\SOURAV WORK\\After IBM\\Practice\\DOTNET_CORE\\CORE_CTS\\CORE_CTS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sourav\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
