@@ -17,6 +17,7 @@ namespace Core_WebAPP
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -24,12 +25,19 @@ namespace Core_WebAPP
         {
             //app.Run(async context => await context.Response.WriteAsync("Hi Sourav"));
             //app.UseDefaultFiles();
-            app.UseStaticFiles();
-
+            //if (env.IsDevelopment())
+            //    app.UseDeveloperExceptionPage();
+            //else
+            //    app.UseExceptionHandler("/error");
+            //app.UseStaticFiles();
+            app.UseExceptionHandler("/error");
             app.UseRouting();
-            app.UseEndpoints(endpoint => endpoint.MapControllerRoute("default",
-                "/{controller}/{action}/{id?}",
-                new { controller = "App", action = "Index" }));
+            app.UseEndpoints(endpoint => {
+                endpoint.MapRazorPages();
+                endpoint.MapControllerRoute("default",
+                    "/{controller}/{action}/{id?}",
+                    new { controller = "App", action = "Index" });
+                });
 
             //if (env.IsDevelopment())
             //{

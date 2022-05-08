@@ -30,3 +30,10 @@ D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\o
 D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\obj\Debug\netcoreapp3.1\Core_WebAPP.RazorTargetAssemblyInfo.cs
 D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\obj\Debug\netcoreapp3.1\Core_WebAPP.Views.pdb
 D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\obj\Debug\netcoreapp3.1\Core_WebAPP.csproj.CopyComplete
+D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\obj\Debug\netcoreapp3.1\Razor\views\shared\_Layout.cshtml.g.cs
+D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\obj\Debug\netcoreapp3.1\Razor\views\_ViewStart.cshtml.g.cs
+D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\obj\Debug\netcoreapp3.1\Razor\views\App\About.cshtml.g.cs
+D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\obj\Debug\netcoreapp3.1\Razor\views\App\Contact.cshtml.g.cs
+D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\obj\Debug\netcoreapp3.1\Razor\views\_ViewImports.cshtml.g.cs
+D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\obj\Debug\netcoreapp3.1\Razor\pages\error.cshtml.g.cs
+D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\obj\Debug\netcoreapp3.1\Razor\pages\_ViewStart.cshtml.g.cs

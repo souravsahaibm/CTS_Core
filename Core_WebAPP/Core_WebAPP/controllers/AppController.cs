@@ -12,5 +12,16 @@ namespace Core_WebAPP.controllers
         {
             return View();
         }
+        public IActionResult Contact()
+        {
+            throw new InvalidOperationException("Something is wrong in code...");
+            return View();
+        }
+
+        [HttpGet("About")]
+        public IActionResult About()
+        {
+            return View();
+        }
     }
 }
