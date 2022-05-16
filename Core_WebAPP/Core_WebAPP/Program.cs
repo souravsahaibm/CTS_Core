@@ -21,6 +21,8 @@ namespace Core_WebAPP
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                })
+            .ConfigureAppConfiguration((context, builder) =>
+            builder.AddJsonFile("customAppConfig.json", false));
     }
 }

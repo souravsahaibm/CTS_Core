@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Contact>
+@{
+    ViewBag.Title = "Contact List";
+}
+<h2>@ViewBag.Title</h2>
+<h2>--------------------</h2>
+@foreach (var contact in Model)
+{
+    <ul>
+        <li>First Name : @contact.FirstName</li>
+        <li>Middle Name : @contact.MiddleName</li>
+        <li>Last Name : @contact.LastName</li>
+    </ul>
+    <h2>------------------------------</h2>
+}

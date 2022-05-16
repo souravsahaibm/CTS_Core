@@ -19,8 +19,15 @@ using Core_WebAPP.controllers;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "D:\SOURAV WORK\After IBM\Practice\DOTNET_CORE\CORE_CTS\Core_WebAPP\Core_WebAPP\views\_ViewImports.cshtml"
+using Core_WebAPP.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b2cd405aac4d482f8f26594b41f9b142b668c4f1", @"/views/App/About.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2fe5f9c1cc6f4da5ee025f4b381415f415939645", @"/views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cfae4fa6713edf92161b1a0ee3d5409633155b83", @"/views/_ViewImports.cshtml")]
     public class views_App_About : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

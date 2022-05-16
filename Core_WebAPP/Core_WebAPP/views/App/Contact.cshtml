@@ -1,6 +1,24 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+﻿@model Contact
+@*
+    
 *@
-@{
+@section Scripts{    
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"></script>
 }
 <h2>Contact Us</h2>
+<form class="container" method="Post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <label asp-for="FirstName"> Firstname </label>
+    <input type="text" asp-for="FirstName" size="15" />
+    <span asp-validation-for="FirstName"></span><br> <br>
+    <label asp-for="MiddleName"> Middlename: </label>
+    <input type="text" asp-for="MiddleName" size="15" />
+    <span asp-validation-for="MiddleName"></span><br> <br>
+    <label asp-for="LastName"> Lastname: </label>
+    <input type="text" asp-for="LastName" size="15" />
+    <span asp-validation-for="LastName"></span><br> <br>
+    <input id="btn_submit" class="btn btn-primary" type="submit" value="Submit" />
+</form>
+
+
